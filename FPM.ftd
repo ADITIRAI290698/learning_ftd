@@ -1,8 +1,10 @@
 -- import: fpm
 
--- fpm.package: <user_name>.github.io/<repo_name>
-zip: github.com/<user_name>/<repo_name>/archive/refs/heads/main.zip
+-- fpm.package: aditirai290698.github.io/learning_ftd
+zip: github.com/aditirai290698/learning_ftd/archive/refs/heads/main.zip
 
--- fpm.dependency: fifthtry.github.io/doc-site as ds
+-- fpm.dependency: fifthtry.github.io/doc-site as aditi
 
--- fpm.auto-import: ds
+-- fpm.auto-import: aditi
+-- fpm.auto-import: fpm
+-- fpm.auto-import: aditirai290698.github.io/learning_ftd/FPM/config
