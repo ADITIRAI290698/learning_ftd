@@ -1,0 +1,10 @@
+-- heading: Message
+label: Software Developer
+
+"East or West India is the Best."
+
+-- ftd.text heading:
+caption title:
+text: $title
+role: $fpm.type.heading-large
+color: $fpm.color.main.text
