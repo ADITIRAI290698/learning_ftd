@@ -5,6 +5,1023 @@ label: Software Developer
 
 -- ftd.text heading:
 caption title:
+optional string label:
 text: $title
 role: $fpm.type.heading-large
 color: $fpm.color.main.text
+
+
+
+
+
+-- ftd.text: Appy
+shadow-blur: 4
+
+
+
+
+
+-- ftd.text foo:
+caption name:
+integer size: 10
+text: $name
+
+
+
+
+
+-- ftd.text: namo
+shadow-offset-x: 1
+
+
+
+
+
+-- ftd.text: damo
+shadow-offset-y: 1
+
+
+
+
+
+-- foo: hello (uses default value of $size)
+
+-- foo: this is nice
+size: 20
+
+-- ftd.row label:
+caption name:
+body value:
+spacing: 5
+
+
+
+
+
+-- ftd.color red:
+light: red
+dark: red
+
+-- ftd.text: heading
+color: $red
+
+
+
+
+
+-- ftd.text: FifthTry
+background-color: $red
+
+
+
+
+-- ftd.text: FifthTry
+border-width: 2
+
+
+
+
+
+-- ftd.text: FifthTry
+border-top: 2
+
+
+
+
+-- ftd.text: FifthTry
+border-bottom: 2
+
+
+
+
+-- ftd.text: FifthTry
+border-left: 2
+
+
+
+
+
+-- ftd.text: FifthTry
+border-right: 2
+
+
+
+
+
+-- ftd.text: FifthTry
+border-style: dashed
+border-width: 2
+
+
+
+
+-- ftd.text: FifthTry
+border-width: 2
+border-radius: 50
+
+
+
+
+
+-- ftd.text: FifthTry
+border-width: 2
+border-top-radius: 50
+
+
+
+
+
+-- ftd.text: FifthTry
+border-width: 2
+border-bottom-radius: 50
+
+
+
+
+
+-- ftd.text: FifthTry
+border-width: 2
+border-left-radius: 50
+
+
+
+
+
+-- ftd.text: FifthTry
+border-width: 2
+border-right-radius: 50
+
+
+
+
+
+-- ftd.text: FifthTry
+padding: 60
+border-width: 2
+
+
+
+
+
+-- ftd.text: FifthTry
+padding-vertical: 60
+border-width: 2
+
+
+
+
+
+-- ftd.text: FifthTry
+padding-horizontal: 60
+border-width: 2
+
+
+
+
+
+-- ftd.text: FifthTry
+padding-left: 60
+border-width: 2
+
+
+
+
+
+-- ftd.text: FifthTry
+padding-right: 60
+border-width: 2
+
+
+
+
+
+-- ftd.text: FifthTry
+padding-top: 60
+border-width: 2
+
+
+
+
+
+-- ftd.text: FifthTry
+padding-bottom: 60
+border-width: 2
+
+
+
+
+
+-- ftd.text: FifthTry
+width: 200
+border-width: 2
+
+
+
+
+-- ftd.text: FifthTry
+min-width: 200
+border-width: 2
+
+
+
+
+
+-- ftd.text: FifthTry
+max-width: 40
+border-width: 2
+
+
+
+
+
+-- ftd.text: FifthTry
+height: 60
+border-width: 2
+
+
+
+
+
+-- ftd.text: FifthTry
+min-height: 70
+border-width: 2
+
+
+
+
+
+-- ftd.text: FifthTry
+max-height: 10
+border-width: 2
+
+
+
+
+
+-- ftd.text:
+background-color: $red
+width: 150
+height: 100
+overflow-x: scroll
+
+Lorem ipsum dolor sit amet, and a veryveryveryveryveryverylong
+word consectetuer adipiscing elit, sed diam nonummy nibh euismod
+tincidunt ut laoreet dolore magna aliquam erat
+
+
+
+
+
+-- ftd.text:
+background-color: $red
+width: 150
+height: 100
+overflow-y: scroll
+
+Lorem ipsum dolor sit amet, and a veryveryveryveryveryverylong
+word consectetuer adipiscing elit, sed diam nonummy nibh euismod
+tincidunt ut laoreet dolore magna aliquam erat
+
+
+
+
+
+-- ftd.row:
+width: fill
+border-width: 5
+border-color: $fpm.color.main.text
+padding: 10
+cursor: pointer
+
+
+-- ftd.text: this row has pointer as cursor
+align: center
+width: fill
+
+
+
+
+
+-- ftd.text: google
+link: https://www.google.com
+
+
+
+
+
+-- ftd.text: this row has pointer as cursor
+align: center
+width: fill
+
+
+
+
+
+-- ftd.text: google
+link: https://www.google.com
+open-in-new-tab: true
+
+
+
+
+
+-- ftd.text: test post
+submit: https://httpbin.org/post?x=10
+
+
+
+
+
+-- ftd.text: hello
+region: h1
+
+
+
+
+
+-- ftd.row:
+width: 400
+height: 200
+gradient-direction: left to right
+gradient-colors: red , blue
+
+
+
+
+
+-- ftd.row:
+width: 400
+height: 200
+gradient-direction: bottom-left to top-right
+gradient-colors: yellow, orange
+
+
+
+
+
+-- ftd.row:
+width: 400
+height: 200
+gradient-direction: left to right
+gradient-colors: red, green, blue, yellow, black
+
+
+
+
+
+-- ftd.row:
+width: 400
+height: 200
+gradient-direction: center
+gradient-colors: red, green
+
+
+
+
+
+-- ftd.row:
+width: 400
+height: 200
+gradient-direction: angle 90
+gradient-colors: red, green
+
+
+
+
+
+-- ftd.row:
+width: 400
+height: 200
+gradient-direction: angle 45
+gradient-colors: red, green
+
+
+
+
+
+-- ftd.row:
+width: fill
+height: 300
+
+
+-- ftd.text: Sample Text
+role: $fpm.type.heading-large
+align: center
+color: $fpm.color.main.text
+
+
+
+
+
+-- ftd.row:
+width: fill
+height: 300
+background-repeat: true
+
+
+-- ftd.text: Sample Text
+role: $fpm.type.heading-large
+align: center
+color: $fpm.color.main.text
+width: fill
+height: fill
+
+
+
+
+
+-- ftd.text: Aditi
+top: 1
+
+
+
+
+
+-- ftd.text: Arpita
+top: 1
+
+
+
+
+
+-- ftd.text: Apple
+bottom: 1
+
+
+
+
+
+-- ftd.text: Piano
+left: 1
+
+
+
+
+
+-- ftd.text: Nano
+right: 1
+
+
+
+
+-- ftd.text: namo
+shadow-offset-x: 1
+
+
+
+
+
+-- ftd.text: damo
+shadow-offset-y: 1
+
+
+
+
+
+-- ftd.color yellow:
+light: yellow
+dark: yellow
+
+-- ftd.text: dam
+shadow-color: $red
+
+-- ftd.text: dam
+shadow-offset-x: 14
+shadow-offset-y: 10
+shadow-blur: 5
+shadow-size: 4
+shadow-color: $yellow
+padding: 20
+background-color: $red
+
+
+
+
+
+-- ftd.text: door
+scale: 1.5
+background-color: $yellow
+padding: 5
+
+
+
+
+
+-- ftd.text: Lion
+scale-x: 0.5
+background-color: $yellow
+padding: 5
+
+
+
+
+
+-- ftd.text: FifthTry
+scale-y: 2
+background-color: $yellow
+padding: 5
+
+
+
+
+
+-- ftd.text: tiger
+rotate: 20
+background-color: $yellow
+padding: 5
+
+
+
+
+
+-- ftd.text: move
+move-up: 20
+background-color: $yellow
+padding: 5
+
+
+
+
+
+-- ftd.text: down
+move-down: 20
+background-color: $yellow
+padding: 5
+
+
+
+
+
+-- ftd.text: left
+move-left: 20
+background-color: $yellow
+padding: 5
+
+
+
+
+
+-- ftd.text: right
+move-right: 20
+background-color: $yellow
+padding: 5
+
+
+
+
+
+-- ftd.column:
+padding: 80
+
+-- ftd.text: FifthTry Red
+z-index: 1
+background-color: $red
+left: 20
+top: 20
+padding: 40
+anchor: parent
+
+-- ftd.text: FifthTry Yellow
+z-index: 2
+background-color: $yellow
+left: 40
+top: 40
+padding: 40
+anchor: parent
+
+
+
+
+
+-- ftd.color green: green
+dark: green
+
+-- ftd.color orange: orange
+dark: orange
+
+-- ftd.column:
+height: 400
+width: 400
+
+-- ftd.column:
+height: 200
+width: 200
+position: center
+background-color: $red
+anchor: parent
+
+--- ftd.column:
+height: 20
+width: 20
+anchor: parent
+position: inner top
+background-color: $green
+open: false
+
+--- ftd.column:
+height: 20
+width: 20
+anchor: parent
+position: inner center
+background-color: $green
+open: false
+
+--- ftd.column:
+height: 20
+width: 20
+anchor: parent
+position: top
+background-color: $orange
+open: false
+
+--- ftd.column:
+height: 20
+width: 20
+anchor: parent
+position: inner top-left
+background-color: $green
+open: false
+
+--- ftd.column:
+height: 20
+width: 20
+anchor: parent
+position: top-left
+background-color: $orange
+open: false
+
+--- ftd.column:
+height: 20
+width: 20
+anchor: parent
+position: inner top-right
+background-color: $green
+open: false
+
+--- ftd.column:
+height: 20
+width: 20
+anchor: parent
+position: top-right
+background-color: $orange
+open: false
+
+--- ftd.column:
+height: 20
+width: 20
+anchor: parent
+position: inner left
+background-color: $green
+open: false
+
+--- ftd.column:
+height: 20
+width: 20
+anchor: parent
+position: left
+background-color: $orange
+open: false
+
+--- ftd.column:
+height: 20
+width: 20
+anchor: parent
+position: inner bottom-right
+background-color: $green
+open: false
+
+--- ftd.column:
+height: 20
+width: 20
+anchor: parent
+position: bottom-right
+background-color: $orange
+open: false
+
+--- ftd.column:
+height: 20
+width: 20
+anchor: parent
+position: inner bottom
+background-color: $green
+open: false
+
+--- ftd.column:
+height: 20
+width: 20
+anchor: parent
+position: bottom
+background-color: $orange
+open: false
+
+--- ftd.column:
+height: 20
+width: 20
+anchor: parent
+position: inner bottom-left
+background-color: $green
+open: false
+
+--- ftd.column:
+height: 20
+width: 20
+anchor: parent
+position: bottom-left
+background-color: $orange
+open: false
+
+--- ftd.column:
+height: 20
+width: 20
+anchor: parent
+position: inner right
+background-color: $green
+open: false
+
+--- ftd.column:
+height: 20
+width: 20
+anchor: parent
+position: right
+background-color: $orange
+open: false
+
+
+
+
+
+-- ftd.text:
+white-space: pre-wrap
+
+But ere she from the church-door stepped She smiled and told us why:
+'It was a wicked woman's curse,' Quoth she, 'and what care I?' She smiled,
+and smiled, and passed it off Ere from the door she stept—
+
+
+
+
+
+-- ftd.text:
+text-transform: capitalize
+
+But ere she from the church-door stepped She smiled and told us why:
+'It was a wicked woman's curse,' Quoth she, 'and what care I?' She smiled,
+and smiled, and passed it off Ere from the door she stept—
+
+
+
+
+
+-- ftd.color cadetblue: cadetblue
+dark: cadetblue
+
+-- ftd.scene:
+width: 400
+height: 400
+background-color: $cadetblue
+
+--- data: Scene 1
+top: 10
+left: 20
+
+--- data: Scene 2
+top: 10
+right: 20
+
+--- data: Scene 3
+bottom: 10
+left: 20
+
+--- data: Scene 4
+bottom: 10
+right: 20
+
+--- data: Scene 5
+bottom: 148
+right: 133
+
+-- ftd.text data: $title
+caption title:
+padding: 40
+border-width: 2
+
+
+
+
+-- ftd.input:
+placeholder: search
+padding-horizontal: 16
+padding-vertical: 8
+width: 200
+border-width: 1
+border-color: $fpm.color.main.border
+border-radius: 4
+
+
+
+
+
+-- ftd.code:
+
+print("hello world")
+
+
+
+
+
+-- ftd.code:
+text: print("hello world")
+
+
+
+
+
+-- ftd.code:
+lang: py
+
+value = "hello world"
+print(value)
+
+
+
+
+
+-- ftd.code:
+lang: py
+theme: Solarized (dark)
+
+value = "hello world"
+print(value)
+
+
+
+
+
+-- ftd.code:
+lang: py
+line-clamp: 1
+
+value = "hello world"
+print(value)
+
+
+
+
+
+-- ftd.code:
+lang: py
+width: 400
+text-align: center
+
+value = "hello world"
+print(value)
+
+
+
+
+
+-- ftd.code:
+lang: py
+line-clamp: 1
+
+value = "hello world"
+print(value)
+
+
+
+
+
+-- ftd.code:
+lang: py
+width: 400
+text-align: left
+
+value = "hello world"
+print(value)
+
+
+
+
+
+-- ftd.code:
+lang: py
+width: 400
+text-align: right
+
+value = "hello world"
+print(value)
+
+
+
+
+
+-- ftd.code:
+lang: py
+width: 400
+text-align: justify
+
+value = "hello world"
+print(value)
+
+
+
+
+
+-- ftd.text: mimi
+text-align: center
+
+
+
+
+-- ftd.text: mimi
+text-align: left
+
+
+
+
+
+-- ftd.text: FifthTry
+style: underline
+
+
+
+
+
+-- ftd.text: FifthTry
+style: strike
+
+
+
+
+
+-- ftd.column card:
+body text:
+width: 300
+min-height: 300
+boolean read_more: true
+integer max_lines:
+
+--- ftd.text: $text
+line-clamp if $read_more: $max_lines
+
+
+--- ftd.text: Read More
+$on-click$: toggle $read_more
+if: $read_more
+
+--- ftd.text: Read Less
+$on-click$: toggle $read_more
+if: not $read_more
+
+
+-- card:
+max_lines: 1
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+tempor incididunt ut labore et dolore magna aliqua.
+
+
+
+
+
+-- ftd.text: {yellow: this is {red: important}}
+
+
+
+
+
+-- ftd.column:
+width: 200
+height: 200
+border-width: 2
+padding: 20
+wrap: true
+
+--- items: 1
+
+--- items: 2
+
+--- items: 3
+
+--- items: 4
+
+--- items: 5
+
+--- items: 6
+
+-- ftd.text items: $title
+caption title:
+width: 50
+height: 50
+border-width: 1
+border-style: dashed
+
+
+
+
+
+
+
+
+
+
