@@ -9,10 +9,27 @@ if: $ftd.device == mobile
 
 -- aditi.page:  `FPM`
 
-FTD is an open source programming language for writing prose.
+`FPM` is a language to create web pages or documents for publishing on the web. 
+FPM takes markdown, and adds features to create full page layouts, 
+lets you create reusable “ftd components”, and 
+has first class support for data modelling, 
+so the ftd document can be used as an data exchange 
+format as well (as a replacement of JSON/CSV etc).
 
 
 
 
 
--- aditi.h2: CODE
+-- aditi.h2: CODE 
+
+In every FPM package there must be a file named `FPM.ftd`.
+
+
+
+-- aditi.code:
+lang: ftd
+
+\-- import: fpm
+
+\-- fpm.package: amitu
+repo: github

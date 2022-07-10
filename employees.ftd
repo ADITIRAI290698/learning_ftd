@@ -17,9 +17,24 @@ url : https://www.FifthTry.com
 
 
 
--- aditi.h3: Company
+-- aditi.h3: AMIT UPADHYAY
+
+CEO, FOUNDER
 
 -- ftd.image: 
-src: $assets.files.download.jpeg
-height : 600 
-width : 600
+src: $assets.files.amitu.png
+height : 200 
+width : 200
+
+
+
+
+
+-- aditi.h3: ARPITA JAISWAL
+
+SENIOR SOFTWARE ENGINEER
+
+-- ftd.image: 
+src: $assets.files.arpita.png
+height : 200 
+width : 200
