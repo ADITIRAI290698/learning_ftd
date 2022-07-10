@@ -1,0 +1,17 @@
+-- boolean is-mobile: false
+
+-- is-mobile: true
+if: $ftd.device == mobile
+
+
+
+
+
+-- aditi.page: WHY FTD ?
+
+FTD gives a lot of power over your presentation,
+and yet it is quite easy to learn.
+
+1. FTD is easy To Learn
+
+2. FTD is Quite Powerful

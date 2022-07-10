@@ -1,0 +1,25 @@
+-- import: aditirai290698.github.io/learning_ftd/assets
+
+-- boolean is-mobile: false
+
+-- is-mobile: true
+if: $ftd.device == mobile
+
+
+
+
+
+-- aditi.page: About
+
+url : https://www.FifthTry.com
+
+
+
+
+
+-- aditi.h3: Company
+
+-- ftd.image: 
+src: $assets.files.download.jpeg
+height : 600 
+width : 600

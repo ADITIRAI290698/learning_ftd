@@ -1,0 +1,18 @@
+-- boolean is-mobile: false
+
+-- is-mobile: true
+if: $ftd.device == mobile
+
+
+
+
+
+-- aditi.page: ABOUT
+
+
+Hi guys..!!! This section brief you about FTD and FPM.
+
+Also, this section shows you my learning using ftd.
+
+Currently i have created some quotes using ftd. 
+Also i have shared the code with you guys for your reference. 

@@ -1,0 +1,16 @@
+-- boolean is-mobile: false
+
+-- is-mobile: true
+if: $ftd.device == mobile
+
+
+
+
+
+-- aditi.page: WHY FPM ?
+
+`FPM` is  `ftd package manager` , defines a package format for packaging `ftd` files.
+
+1. Distributed Package Manager
+
+2. Translation Tracking

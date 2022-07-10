@@ -1,0 +1,18 @@
+-- boolean is-mobile: false
+
+-- is-mobile: true
+if: $ftd.device == mobile
+
+
+
+
+
+-- aditi.page:  `FPM`
+
+FTD is an open source programming language for writing prose.
+
+
+
+
+
+-- aditi.h2: CODE

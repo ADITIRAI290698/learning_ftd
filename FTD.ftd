@@ -1,0 +1,86 @@
+-- boolean is-mobile: false
+
+-- is-mobile: true
+if: $ftd.device == mobile
+
+
+
+
+
+-- aditi.page: `FTD`
+
+FTD is an open source programming language for writing prose.
+
+
+
+
+
+-- aditi.h2: CODE
+
+
+
+-- aditi.code: Code for  `-- Hello World`
+lang: ftd
+
+\-- ftd.code:
+
+print("hello world")
+
+
+
+
+-- aditi.h3: OUTPUT
+
+-- whitey1: 
+
+print("hello world")
+
+
+
+
+
+
+
+
+
+
+-- ftd.column whitey1:
+optional caption title:
+optional string label:
+body body:
+margin-top: $fpm.space.space-6
+margin-bottom: $fpm.space.space-6
+width: auto
+width if $is-mobile: fill
+align: left
+
+--- ftd.column:
+align: left
+padding-vertical: $fpm.space.space-2
+padding-horizontal: $fpm.space.space-2
+max-width: 756
+
+--- ftd.text:
+text: $body
+color: $fpm.color.main.text
+role: $fpm.type.heading-small
+padding-horizontal: $fpm.space.space-7
+margin-top: 1
+margin-bottom: 1
+text-align: left
+border-width: 2
+
+
+--- ftd.text: $title
+align: center
+role: $fpm.type.copy-tight
+color: $fpm.color.main.text
+padding-horizontal: $fpm.space.space-7
+
+--- ftd.text: $label
+align: left
+role: $fpm.type.copy-tight
+color: $fpm.color.main.text
+padding-horizontal: $fpm.space.space-7
+
+--- container: ftd.main
