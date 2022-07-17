@@ -1,0 +1,247 @@
+-- import: aditirai290698.github.io/learning_ftd/assets
+
+-- boolean is-mobile: false
+
+-- is-mobile: true
+if: $ftd.device == mobile
+
+
+
+
+
+-- aditi.page: My Gallery
+
+This is a small gallery which contains images of famous personality.
+
+
+
+
+-- image-right-hug: RATAN TATA
+src: $assets.files.ratantata.png
+
+Ratan Naval Tata is an Indian industrialist, philanthropist,
+and a former chairman of Tata Sons. He was the chairman of Tata Group,
+from 1990 to 2012, and again, as interim chairman,
+from October 2016 through February 2017,
+and continues to head its charitable trusts.
+
+
+
+
+
+
+
+
+
+
+-- ftd.column image-right-hug:
+optional caption title:
+optional string label:
+ftd.image-src src:
+body body:
+width: auto
+width if $is-mobile: fill
+padding-vertical: $fpm.space.space-7
+align: center
+
+
+--- ftd.row:
+align: center
+padding-vertical: $fpm.space.space-4
+max-width: 756
+
+
+--- ftd.text:
+text: $body
+color: $fpm.color.main.text
+role: $fpm.type.heading-small
+padding-horizontal: $fpm.space.space-4
+text-align: justify
+
+
+--- ftd.column:
+align: center
+max-width: 756
+
+
+--- ftd.image:
+src: $src
+height : 300
+width : 200
+
+
+--- ftd.text: $title
+padding-top: $fpm.space.space-2
+role: $fpm.type.copy-tight
+color: $fpm.color.main.text
+align: center
+
+
+--- container: ftd.main
+
+
+
+
+
+
+
+
+
+
+-- image-left-hug: A.P.J. KALAM
+src: $assets.files.apjkalam.png
+
+Avul Pakir Jainulabdeen Abdul Kalam was an Indian aerospace scientist
+who served as the 11th President of India from 2002 to 2007.
+He was born and raised in Rameswaram, Tamil Nadu and
+studied physics and aerospace engineering.
+
+
+
+
+
+
+
+
+
+
+-- ftd.row image-left-hug:
+optional caption title:
+optional string label:
+ftd.image-src src:
+body body:
+width: auto
+width if $is-mobile: fill
+padding-vertical: $fpm.space.space-7
+align: center
+
+
+--- ftd.column:
+align: center
+max-width: 756
+
+
+--- ftd.image:
+src: $src
+height : 300
+width : 200
+
+
+--- ftd.text: $title
+role: $fpm.type.copy-tight
+padding-top: $fpm.space.space-2
+color: $fpm.color.main.text
+align: center
+
+
+--- container: ftd.main
+
+
+--- ftd.row:
+align: left
+max-width: 756
+
+
+--- ftd.text:
+text: $body
+color: $fpm.color.main.text
+role: $fpm.type.heading-small
+padding-horizontal: $fpm.space.space-4
+text-align: justify
+
+
+--- container: ftd.main
+
+
+
+
+
+
+
+
+
+
+-- image-column:
+title1: ARPITA
+title2: AMITU
+src1: $assets.files.arpita.png
+src2: $assets.files.amitu.png
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+nisi ut aliquip ex ea commodo consequat.
+
+
+
+
+
+
+
+
+
+
+-- ftd.row image-column:
+optional caption title:
+optional string label:
+string title1:
+string title2:
+ftd.image-src src1:
+ftd.image-src src2:
+body body:
+width: auto
+padding-vertical: $fpm.space.space-7
+width if $is-mobile: fill
+min-width: percent 50
+align: center
+
+
+--- ftd.column:
+align: center
+max-width: 756
+
+
+--- ftd.image:
+src: $src1
+height : 300
+width : 200
+
+
+--- ftd.text: $title1
+padding-top: $fpm.space.space-2
+role: $fpm.type.copy-tight
+color: $fpm.color.main.text
+align: center
+
+
+--- container: ftd.main
+
+
+--- ftd.text:
+text: $body
+color: $fpm.color.main.text
+role: $fpm.type.heading-small
+padding-horizontal: $fpm.space.space-4
+text-align: justify
+
+
+--- ftd.column:
+align: left
+max-width: 756
+
+
+--- ftd.image:
+src: $src2
+height : 300
+width : 200
+
+
+--- ftd.text: $title2
+padding-top: $fpm.space.space-2
+role: $fpm.type.copy-tight
+color: $fpm.color.main.text
+align: center
+
+
+
+--- container: ftd.main
