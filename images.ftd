@@ -66,7 +66,7 @@ max-width: 756
 
 --- ftd.image:
 src: $src
-height : 300
+height : 200
 width : 200
 
 
@@ -123,7 +123,7 @@ max-width: 756
 
 --- ftd.image:
 src: $src
-height : 300
+height : 200
 width : 200
 
 
@@ -162,10 +162,10 @@ text-align: justify
 
 
 -- image-column:
-title1: ARPITA
-title2: AMITU
-src1: $assets.files.arpita.png
-src2: $assets.files.amitu.png
+title1: MANUSHI CHILLAR
+title2: HARNAAZ KAUR SANDHU
+src1: $assets.files.manushichillar.png
+src2: $assets.files.harnazsandhu.png
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -197,13 +197,13 @@ align: center
 
 
 --- ftd.column:
-align: center
+align: left
 max-width: 756
 
 
 --- ftd.image:
 src: $src1
-height : 300
+height : 200
 width : 200
 
 
@@ -232,7 +232,7 @@ max-width: 756
 
 --- ftd.image:
 src: $src2
-height : 300
+height : 200
 width : 200
 
 
