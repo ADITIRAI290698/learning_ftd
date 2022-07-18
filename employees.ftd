@@ -21,11 +21,25 @@ url : https://www.FifthTry.com
 
 CEO, FOUNDER
 
+-- amitu:
+src: $assets.files.ceo.png
 
--- ftd.image: 
-src: $assets.files.amitu.png
-height : 200 
+
+-- ftd.column amitu:
+ftd.image-src src:
+
+
+--- ftd.image:
+src: $src
+height : 200
 width : 200
+
+--- container: ftd.main
+
+
+
+
+
 
 
 
@@ -35,7 +49,21 @@ width : 200
 
 SENIOR SOFTWARE ENGINEER
 
--- ftd.image: 
-src: $assets.files.arpita.png
-height : 200 
+
+
+
+
+-- arpita:
+src: $assets.files.sde.png
+
+
+-- ftd.column arpita:
+ftd.image-src src:
+
+
+--- ftd.image:
+src: $src
+height : 200
 width : 200
+
+--- container: ftd.main
