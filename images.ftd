@@ -585,13 +585,16 @@ text-align: justify
 
 
 
--- [row[col[Image1|Body1]col[Image2|Body2]]]: 
+-- [row[col[Image1|Body1]col[Image2|Body2]col[Image3|Body3]]]: 
 title1: CEO
 title2: SDE
-src1: $assets.files.ceo.png
-src2: $assets.files.sde.png
+title3: HR
+src1: $assets.files.ratantata.png
+src2: $assets.files.apjkalam.png
+src3: $assets.files.srk.png
 image-desc1: $s1
 image-desc2: $s2
+image-desc2: $s3
 
 
 
@@ -599,10 +602,15 @@ image-desc2: $s2
 
 -- string s1:
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui
-blanditiis.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 -- string s2:
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+-- string s3:
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -616,15 +624,18 @@ sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 
 
--- ftd.row [row[col[Image1|Body1]col[Image2|Body2]]]:
+-- ftd.row [row[col[Image1|Body1]col[Image2|Body2]col[Image3|Body3]]]:
 optional caption title:
 optional string label:
 string title1:
 string title2:
+string title3:
 ftd.image-src src1:
 ftd.image-src src2:
+ftd.image-src src3:
 optional string image-desc1:
 optional string image-desc2:
+optional string image-desc3:
 width: auto
 padding-vertical: $fpm.space.space-7
 width if $is-mobile: fill
@@ -647,7 +658,6 @@ padding-horizontal: $fpm.space.space-4
 --- ftd.text: $title1
 role: $fpm.type.copy-tight
 padding-top: $fpm.space.space-2
-padding-left: $fpm.space.space-2
 color: $fpm.color.main.text
 align: center
 
@@ -687,7 +697,6 @@ padding-horizontal: $fpm.space.space-4
 
 --- ftd.text: $title2
 padding-top: $fpm.space.space-2
-padding-left: $fpm.space.space-2
 role: $fpm.type.copy-tight
 color: $fpm.color.main.text
 align: center
@@ -702,6 +711,44 @@ max-width: 756
 
 --- ftd.text:
 text: $image-desc2
+color: $fpm.color.main.text
+role: $fpm.type.heading-small
+padding-horizontal: $fpm.space.space-4
+text-align: justify
+
+
+--- container: ftd.main
+
+
+--- ftd.column:
+align: left
+max-width: 756
+padding-horizontal: $fpm.space.space-4
+
+
+--- ftd.image:
+src: $src3
+height : 200
+width : 200
+padding-horizontal: $fpm.space.space-4
+
+
+--- ftd.text: $title3
+padding-top: $fpm.space.space-2
+role: $fpm.type.copy-tight
+color: $fpm.color.main.text
+align: center
+
+
+--- ftd.column:
+align: left
+padding-horizontal: $fpm.space.space-2
+min-width: 200
+max-width: 756
+
+
+--- ftd.text:
+text: $image-desc3
 color: $fpm.color.main.text
 role: $fpm.type.heading-small
 padding-horizontal: $fpm.space.space-4
