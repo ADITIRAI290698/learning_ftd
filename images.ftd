@@ -16,7 +16,7 @@ This is a small gallery which contains images of famous personality.
 
 
 
--- image-right-hug: RATAN TATA
+-- text-image: RATAN TATA
 src: $assets.files.ratantata.png
 
 Ratan Naval Tata is an Indian industrialist, philanthropist,
@@ -34,7 +34,7 @@ and continues to head its charitable trusts.
 
 
 
--- ftd.column image-right-hug:
+-- ftd.column text-image:
 optional caption title:
 optional string label:
 ftd.image-src src:
@@ -88,7 +88,7 @@ align: center
 
 
 
--- image-left-hug: A.P.J. KALAM
+-- image-text: A.P.J. KALAM
 src: $assets.files.apjkalam.png
 
 Avul Pakir Jainulabdeen Abdul Kalam was an Indian aerospace scientist
@@ -105,7 +105,7 @@ studied physics and aerospace engineering.
 
 
 
--- ftd.row image-left-hug:
+-- ftd.row image-text:
 optional caption title:
 optional string label:
 ftd.image-src src:
@@ -161,7 +161,7 @@ text-align: justify
 
 
 
--- image-column:
+-- image-text-image:
 title1: MANUSHI CHILLAR
 title2: HARNAAZ KAUR SANDHU
 src1: $assets.files.manushichillar.png
@@ -181,7 +181,7 @@ nisi ut aliquip ex ea commodo consequat.
 
 
 
--- ftd.row image-column:
+-- ftd.row image-text-image:
 optional caption title:
 optional string label:
 string title1:
@@ -245,3 +245,465 @@ align: center
 
 
 --- container: ftd.main
+
+
+
+
+
+
+
+
+
+
+-- text-image-text: SHAH RUKH KHAN
+src: $assets.files.srk.png
+image-desc1: $t1
+image-desc2: $t2
+
+
+
+
+
+-- string t1:
+
+At vero eos et accusamus et iusto odio dignissimos ducimus qui
+blanditiis.
+
+-- string t2:
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+
+
+
+
+
+
+
+
+-- ftd.row text-image-text:
+optional caption title:
+optional string label:
+ftd.image-src src:
+optional string image-desc1:
+optional string image-desc2:
+width: auto
+width if $is-mobile: fill
+min-width: percent 50
+padding-vertical: $fpm.space.space-7
+align: center
+
+
+--- ftd.row:
+align: left
+max-width: 756
+padding-horizontal: $fpm.space.space-4
+min-width: 200
+max-width: 756
+
+
+--- ftd.text:
+text: $image-desc1
+color: $fpm.color.main.text
+role: $fpm.type.heading-small
+text-align: justify
+
+
+--- container: ftd.main
+
+
+--- ftd.column:
+align: left
+max-width: 756
+padding-horizontal: $fpm.space.space-7
+
+
+--- ftd.image:
+src: $src
+height : 200
+width : 200
+
+
+--- ftd.text: $title
+padding-top: $fpm.space.space-2
+role: $fpm.type.copy-tight
+color: $fpm.color.main.text
+align: center
+
+
+--- container: ftd.main
+
+
+--- ftd.column:
+align: left
+max-width: 756
+padding-horizontal: $fpm.space.space-2
+
+
+--- ftd.text:
+text: $image-desc2 
+color: $fpm.color.main.text
+role: $fpm.type.heading-small
+padding-horizontal: $fpm.space.space-2
+text-align: justify
+
+
+--- container: ftd.main
+
+
+
+
+
+
+
+
+
+
+-- image-image-image:
+title1: MANUSHI CHILLAR
+title2: SHAH RUKH KHAN
+title3: HARNAAZ KAUR SANDHU
+src1: $assets.files.manushichillar.png
+src2: $assets.files.srk.png
+src3: $assets.files.harnazsandhu.png
+
+
+
+
+
+
+
+
+
+
+-- ftd.row image-image-image:
+optional caption title:
+optional string label:
+string title1:
+string title2:
+string title3:
+ftd.image-src src1:
+ftd.image-src src2:
+ftd.image-src src3:
+padding-vertical: $fpm.space.space-7
+
+
+--- ftd.column:
+align: left
+max-width: 756
+padding-horizontal: $fpm.space.space-4
+
+
+--- ftd.image:
+src: $src1
+height : 200
+width : 200
+
+
+--- ftd.text: $title1
+padding-top: $fpm.space.space-2
+role: $fpm.type.copy-tight
+color: $fpm.color.main.text
+align: center
+
+
+--- container: ftd.main
+
+
+--- ftd.column:
+align: left
+max-width: 756
+padding-horizontal: $fpm.space.space-4
+
+
+--- ftd.image:
+src: $src2
+height : 200
+width : 200
+
+
+--- ftd.text: $title2
+padding-top: $fpm.space.space-2
+role: $fpm.type.copy-tight
+color: $fpm.color.main.text
+align: center
+
+
+--- container: ftd.main
+
+
+--- ftd.column:
+align: left
+max-width: 756
+padding-horizontal: $fpm.space.space-4
+
+
+--- ftd.image:
+src: $src3
+height : 200
+width : 200
+
+
+--- ftd.text: $title3
+padding-top: $fpm.space.space-2
+role: $fpm.type.copy-tight
+color: $fpm.color.main.text
+align: center
+
+
+--- container: ftd.main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- text-text-text: SHAH RUKH KHAN
+src: $assets.files.ceo.png
+image-desc1: $b1
+image-desc2: $b2
+image-desc3: $b3
+
+
+
+
+
+-- string b1:
+
+At vero eos et accusamus et iusto odio dignissimos ducimus qui
+blanditiis.
+
+-- string b2:
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+-- string b3:
+
+On the other hand, we denounce with righteous indignation and 
+dislike men who are so beguiled and demoralized by the charms 
+of pleasure of the moment, so blinded by desire
+
+
+
+
+
+
+
+
+
+
+-- ftd.row text-text-text:
+optional caption title:
+optional string label:
+ftd.image-src src:
+optional string image-desc1:
+optional string image-desc2:
+optional string image-desc3:
+width: auto
+padding-vertical: $fpm.space.space-7
+width if $is-mobile: fill
+min-width: percent 50
+align: center
+
+
+--- ftd.row:
+align: left
+padding-horizontal: $fpm.space.space-2
+min-width: 200
+max-width: 756
+
+
+--- ftd.text:
+text: $image-desc1
+color: $fpm.color.main.text
+role: $fpm.type.heading-small
+text-align: justify
+
+
+--- container: ftd.main
+
+
+--- ftd.column:
+align: left
+padding-horizontal: $fpm.space.space-2
+min-width: 200
+max-width: 756
+
+
+--- ftd.text:
+text: $image-desc2
+color: $fpm.color.main.text
+role: $fpm.type.heading-small
+padding-horizontal: $fpm.space.space-10
+text-align: justify
+
+
+--- container: ftd.main
+
+
+--- ftd.column:
+align: left
+padding-horizontal: $fpm.space.space-2
+min-width: 200
+max-width: 756
+
+
+--- ftd.text:
+text: $image-desc3
+color: $fpm.color.main.text
+role: $fpm.type.heading-small
+padding-horizontal: $fpm.space.space-10
+text-align: justify
+
+
+--- container: ftd.main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- [row[col[Image1|Body1]col[Image2|Body2]]]: 
+title1: CEO
+title2: SDE
+src1: $assets.files.ceo.png
+src2: $assets.files.sde.png
+image-desc1: $s1
+image-desc2: $s2
+
+
+
+
+
+-- string s1:
+
+At vero eos et accusamus et iusto odio dignissimos ducimus qui
+blanditiis.
+
+-- string s2:
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+
+
+
+
+
+
+
+
+-- ftd.row [row[col[Image1|Body1]col[Image2|Body2]]]:
+optional caption title:
+optional string label:
+string title1:
+string title2:
+ftd.image-src src1:
+ftd.image-src src2:
+optional string image-desc1:
+optional string image-desc2:
+width: auto
+padding-vertical: $fpm.space.space-7
+width if $is-mobile: fill
+min-width: percent 50
+align: center
+
+
+--- ftd.column:
+align: left
+max-width: 756
+
+
+--- ftd.image:
+src: $src1
+height : 200
+width : 200
+padding-horizontal: $fpm.space.space-10
+
+
+--- ftd.text: $title1
+role: $fpm.type.copy-tight
+padding-top: $fpm.space.space-2
+color: $fpm.color.main.text
+align: center
+
+
+--- ftd.column:
+align: left
+padding-horizontal: $fpm.space.space-2
+min-width: 200
+max-width: 756
+
+
+--- ftd.text:
+text: $image-desc1
+color: $fpm.color.main.text
+role: $fpm.type.heading-small
+padding-horizontal: $fpm.space.space-4
+text-align: justify
+
+
+--- container: ftd.main
+
+
+--- ftd.column:
+align: left
+max-width: 756
+padding-horizontal: $fpm.space.space-4
+
+
+--- ftd.image:
+src: $src2
+height : 200
+width : 200
+padding-horizontal: $fpm.space.space-10
+
+
+--- ftd.text: $title2
+padding-top: $fpm.space.space-2
+role: $fpm.type.copy-tight
+color: $fpm.color.main.text
+align: center
+
+
+--- ftd.column:
+align: left
+padding-horizontal: $fpm.space.space-2
+min-width: 200
+max-width: 756
+
+
+--- ftd.text:
+text: $image-desc2
+color: $fpm.color.main.text
+role: $fpm.type.heading-small
+padding-horizontal: $fpm.space.space-4
+text-align: justify
+
+
+--- container: ftd.main
+
+
