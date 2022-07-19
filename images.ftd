@@ -641,12 +641,13 @@ max-width: 756
 src: $src1
 height : 200
 width : 200
-padding-horizontal: $fpm.space.space-10
+padding-horizontal: $fpm.space.space-4
 
 
 --- ftd.text: $title1
 role: $fpm.type.copy-tight
 padding-top: $fpm.space.space-2
+padding-left: $fpm.space.space-2
 color: $fpm.color.main.text
 align: center
 
@@ -679,11 +680,14 @@ padding-horizontal: $fpm.space.space-4
 src: $src2
 height : 200
 width : 200
-padding-horizontal: $fpm.space.space-10
+padding-horizontal: $fpm.space.space-4
+
+
 
 
 --- ftd.text: $title2
 padding-top: $fpm.space.space-2
+padding-left: $fpm.space.space-2
 role: $fpm.type.copy-tight
 color: $fpm.color.main.text
 align: center
