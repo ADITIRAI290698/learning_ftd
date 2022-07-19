@@ -546,9 +546,11 @@ max-width: 756
 text: $image-desc2
 color: $fpm.color.main.text
 role: $fpm.type.heading-small
-padding-horizontal: $fpm.space.space-10
+padding-horizontal: $fpm.space.space-4
 text-align: justify
 
+
+--- container: ftd.main
 
 --- container: ftd.main
 
@@ -569,12 +571,6 @@ text-align: justify
 
 
 --- container: ftd.main
-
-
-
-
-
-
 
 
 
