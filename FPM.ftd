@@ -29,7 +29,7 @@ zip: github.com/aditirai290698/learning_ftd/archive/refs/heads/main.zip
 
 - Images: /images/
 
-- Import_Packages_Practice: /header/
+- Header: /header/
 
 
 ## FTD: /FTD/
