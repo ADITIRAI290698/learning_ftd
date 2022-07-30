@@ -1,0 +1,860 @@
+-- boolean is-mobile: false
+
+-- is-mobile: true
+if: $ftd.device == mobile
+
+
+-- ftd.color trans:
+light: rgba(255,0,0,0.0)
+dark: rgba(255,0,0,0.0)
+
+
+
+
+
+-- aditi.page: E-INVITATIONS
+
+This page shows you template for e-cards using ftd.
+
+
+
+
+
+-- aditi.h2: BIRTHDAY E-CARD
+
+
+-- aditi.code: Code for  `-- CARD-1`
+lang: ftd
+
+
+\-- card-1: 
+
+Join us
+FOR A
+SURPRISE 
+BIRTHDAY PARTY
+honoring 
+Jackson Carter
+FRIDAY | JULY  22 | 6PM
+PLATFORM THIRTY
+440 CRESSON STREET
+PHILADELPHIA
+rsvp at 123.456.7890
+
+
+
+
+
+--- ftd.text: Output of above:
+padding-vertical: 12
+color: $fpm.color.main.text
+role: $fpm.type.heading-small
+text-align: center
+align: left
+
+
+
+
+
+
+
+
+
+
+-- card-1:
+card-desc1: $t1
+card-desc2: $t2
+card-desc3: $t3
+card-desc4: $t4
+card-desc5: $t5
+card-desc6: $t6
+
+
+
+
+
+-- string t1:
+
+Join us
+
+
+-- string t2:
+
+FOR A
+
+
+-- string t3:
+
+SURPRISE 
+
+BIRTHDAY PARTY
+
+-- string t4:
+
+honoring 
+
+-- string t5:
+
+Jackson Carter
+
+-- string t6:
+
+
+FRIDAY | JULY  22 | 6PM
+
+
+PLATFORM THIRTY
+440 CRESSON STREET
+PHILADELPHIA
+
+rsvp at 123.456.7890
+
+
+
+
+
+
+
+
+
+
+-- ftd.column card-1:
+optional caption title:
+optional string label:
+ftd.image-src src: $assets.files.bg1.png
+optional string card-desc1:
+optional string card-desc2:
+optional string card-desc3:
+optional string card-desc4:
+optional string card-desc5:
+optional string card-desc6:
+min-width: percent 50
+margin-top: $fpm.space.space-6
+margin-bottom: $fpm.space.space-6
+background-image: $src
+background-repeat: false
+padding-vertical: $fpm.space.space-8
+padding-horizontal:  $fpm.space.space-8
+width: percent 100
+height: 560
+width if $is-mobile: fill
+align: center
+
+
+--- ftd.column:
+background-color: $trans
+align: center
+padding-vertical: $fpm.space.space-2
+padding-horizontal: $fpm.space.space-2
+max-width: 756
+align: center
+
+
+--- ftd.text:
+text: $card-desc1
+padding-vertical: $fpm.space.space-6
+color: $fpm.color.main.background.step-1
+role: $fpm.type.heading-hero
+align: center
+text-align: center
+background-color: $trans
+
+
+--- ftd.text:
+text: $card-desc2
+color: $fpm.color.main.background.step-1
+role: $fpm.type.blockquote
+padding-horizontal: $fpm.space.space-7
+text-align: center
+align: center
+background-color: $trans
+
+
+--- ftd.text:
+text: $card-desc3
+color: $fpm.color.main.background.step-1
+role: $fpm.type.heading-large
+padding-horizontal: $fpm.space.space-7
+text-align: center
+align: center
+background-color: $trans
+
+
+--- ftd.text:
+text: $card-desc4
+color: $fpm.color.main.background.step-1
+role: $fpm.type.blockquote
+padding-horizontal: $fpm.space.space-7
+text-align: center
+align: center
+background-color: $trans
+
+
+--- ftd.text:
+text: $card-desc5
+color: $fpm.color.main.background.step-1
+role: $fpm.type.copy-tight
+padding-horizontal: $fpm.space.space-2
+padding-horizontal: $fpm.space.space-7
+text-align: center
+align: center
+background-color: $trans
+
+
+--- ftd.text:
+text: $card-desc6
+color: $fpm.color.main.background.step-1
+role: $fpm.type.label-big
+padding-horizontal: $fpm.space.space-7
+text-align: center
+align: center
+background-color: $trans
+
+
+--- container: ftd.main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- aditi.h2: ANNIVERSARY E-CARD
+
+
+-- aditi.code: Code for  `-- CARD-2`
+lang: ftd
+
+
+\-- card-2:
+
+Join us as we
+celebrate our
+50th
+Anniversary
+Martin & Robot
+Rodriguez
+SATURDAY, SEPTEMBER 16TH, 2022
+7 0'CLOCK IN THE EVENING
+1152 DARK STAR LANE
+SAN DIEGO, CA
+RSVP:123.456.7890
+
+
+
+
+
+--- ftd.text: Output of above:
+padding-vertical: 12
+color: $fpm.color.main.text
+role: $fpm.type.heading-small
+text-align: center
+align: left
+
+
+
+
+
+
+
+
+
+
+-- card-2: 
+card-desc1: $s1
+card-desc2: $s2
+card-desc3: $s3
+card-desc4: $s4
+
+
+-- string s1:
+
+Join us as we
+
+celebrate our
+
+
+-- string s2:
+
+50th
+
+Anniversary
+
+
+-- string s3:
+
+Martin & Robot
+Rodriguez
+
+
+-- string s4:
+
+SATURDAY, SEPTEMBER 16TH, 2022
+
+7 0'CLOCK IN THE EVENING
+
+1152 DARK STAR LANE
+SAN DIEGO, CA
+
+RSVP:123.456.7890
+
+
+
+
+
+
+
+
+
+
+-- ftd.column card-2:
+optional caption title:
+optional string label:
+ftd.image-src src: $assets.files.bg2.png
+optional string card-desc1:
+optional string card-desc2:
+optional string card-desc3:
+optional string card-desc4:
+min-width: percent 50
+margin-top: $fpm.space.space-6
+margin-bottom: $fpm.space.space-6
+background-image: $src
+background-repeat: false
+padding-vertical: $fpm.space.space-8
+padding-horizontal:  $fpm.space.space-8
+height: 950
+width: percent 100
+width if $is-mobile: fill
+align: center
+
+
+--- ftd.column:
+spacing: 2
+background-color: $trans
+align: center
+padding-vertical: $fpm.space.space-2
+padding-horizontal: $fpm.space.space-2
+max-width: 756
+align: center
+
+
+--- ftd.text:
+text: $card-desc1
+color: $fpm.color.main.background.step-1
+padding-vertical: $fpm.space.space-4
+role: $fpm.type.copy-large
+align: center
+text-align: center
+background-color: $trans
+
+
+--- ftd.text:
+text: $card-desc2
+color: $fpm.color.main.background.step-1
+role: $fpm.type.heading-medium
+padding-horizontal: $fpm.space.space-6
+text-align: center
+align: center
+background-color: $trans
+
+
+--- ftd.text:
+text: $card-desc3
+color: $fpm.color.main.background.step-1
+role: $fpm.type.heading-medium
+padding-horizontal: $fpm.space.space-6
+text-align: center
+align: center
+background-color: $trans
+
+
+--- ftd.text:
+text: $card-desc4
+color: $fpm.color.main.background.step-1
+role: $fpm.type.copy-tight
+padding-vertical: $fpm.space.space-6
+padding-horizontal: $fpm.space.space-6
+text-align: center
+align: center
+background-color: $trans
+
+
+--- container: ftd.main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- aditi.h2: CHRISTMAS E-CARD
+
+
+-- aditi.code: Code for  `-- CARD-3`
+lang: ftd
+
+
+\-- card-3:
+
+To: Jane Fowler
+
+To Jane,
+Merry Christmas and a Happy New Year!
+Enjoy the rest of the holidays without any worry.
+You deserve this time off for yourself.
+
+From: Sean Smith
+
+
+
+
+
+--- ftd.text: Output of above:
+padding-vertical: 12
+color: $fpm.color.main.text
+role: $fpm.type.heading-small
+text-align: center
+align: left
+
+
+
+
+
+-- card-3: 
+card-desc1: $u1
+card-desc2: $u2
+card-desc3: $u3
+
+
+
+-- string u1:
+
+To: Jane Fowler
+
+
+-- string u2:
+
+To Jane,
+
+Merry Christmas and a Happy New Year!
+
+Enjoy the rest of the holidays without any worry.
+
+You deserve this time off for yourself.
+
+
+-- string u3:
+
+From: Sean Smith
+
+
+
+
+
+
+
+
+
+
+-- ftd.column card-3:
+optional caption title:
+optional string label:
+ftd.image-src src: $assets.files.bg3.png
+optional string card-desc1:
+optional string card-desc2:
+optional string card-desc3:
+min-width: percent 50
+margin-top: $fpm.space.space-6
+margin-bottom: $fpm.space.space-6
+background-image: $src
+background-repeat: false
+padding-vertical: $fpm.space.space-8
+padding-horizontal:  $fpm.space.space-8
+width: percent 100
+height: 560
+width if $is-mobile: fill
+align: center
+
+
+--- ftd.column:
+background-color: $trans
+align: center
+padding-vertical: $fpm.space.space-2
+padding-horizontal: $fpm.space.space-2
+max-width: 756
+align: center
+
+
+--- ftd.text:
+text: $card-desc1
+padding-vertical: $fpm.space.space-2
+padding-left: $fpm.space.space-2
+padding-right: $fpm.space.space-2
+color: $fpm.color.main.text-strong
+role: $fpm.type.heading-small
+align: center
+text-align: center
+background-color: $fpm.color.main.custom.two
+
+
+--- ftd.text:
+text: $card-desc2
+color: $fpm.color.main.background.step-1
+role: $fpm.type.heading-small
+padding-top: $fpm.space.space-8
+padding-bottom: $fpm.space.space-10
+padding-horizontal: $fpm.space.space-7
+text-align: center
+align: center
+background-color: $trans
+
+
+--- ftd.text:
+text: $card-desc3
+padding-vertical: $fpm.space.space-2
+padding-left: $fpm.space.space-2
+padding-right: $fpm.space.space-2
+color: $fpm.color.main.text-strong
+role: $fpm.type.heading-small
+align: center
+text-align: center
+background-color: $fpm.color.main.custom.two
+
+
+
+--- container: ftd.main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- aditi.h2: GET WELL SOON E-CARD
+
+
+-- aditi.code: Code for  `-- CARD-4`
+lang: ftd
+
+
+\-- card-4:
+
+Get Well Soon!
+
+Get your much-needed
+rest and grid again.
+
+We will always wait for you.
+
+Love,Carla
+
+
+
+--- ftd.text: Output of above:
+padding-vertical: 12
+color: $fpm.color.main.text
+role: $fpm.type.heading-small
+text-align: center
+align: left
+
+
+
+
+
+-- card-4: 
+card-desc1: $v1
+card-desc2: $v2
+card-desc3: $v3
+card-desc4: $v4
+
+
+
+-- string v1:
+
+Get Well Soon!
+
+
+-- string v2:
+
+Get your much-needed
+
+rest and grid again.
+
+
+-- string v3:
+
+We will always wait for you.
+
+
+-- string v4:
+
+Love,Carla
+
+
+
+
+
+-- ftd.column card-4:
+optional caption title:
+optional string label:
+ftd.image-src src: $assets.files.bg4.png
+optional string card-desc1:
+optional string card-desc2:
+optional string card-desc3:
+optional string card-desc4:
+min-width: percent 50
+margin-top: $fpm.space.space-6
+margin-bottom: $fpm.space.space-6
+background-image: $src
+background-repeat: false
+padding-vertical: $fpm.space.space-8
+padding-horizontal:  $fpm.space.space-8
+width: percent 100
+height: 560
+width if $is-mobile: fill
+align: center
+
+
+--- ftd.column:
+background-color: $trans
+align: center
+padding-vertical: $fpm.space.space-2
+padding-horizontal: $fpm.space.space-2
+max-width: 756
+align: center
+
+
+--- ftd.text:
+text: $card-desc1
+padding-top: $fpm.space.space-6
+padding-vertical: $fpm.space.space-7
+color: $fpm.color.main.success.border
+role: $fpm.type.heading-hero
+align: center
+text-align: center
+background-color: $trans
+
+
+--- ftd.text:
+text: $card-desc2
+color: $fpm.color.main.success.border
+role: $fpm.type.heading-medium
+padding-vertical: $fpm.space.space-2
+padding-horizontal: $fpm.space.space-7
+padding-bottom: $fpm.space.space-1
+text-align: center
+align: center
+background-color: $trans
+
+
+--- ftd.text:
+text: $card-desc3
+color: $fpm.color.main.success.border
+role: $fpm.type.copy-relaxed
+padding-vertical: $fpm.space.space-2
+padding-horizontal: $fpm.space.space-7
+padding-bottom: $fpm.space.space-10
+text-align: center
+align: center
+background-color: $trans
+
+
+--- ftd.text:
+text: $card-desc4
+color: $fpm.color.main.success.base
+role: $fpm.type.heading-large
+padding-vertical: $fpm.space.space-2
+padding-horizontal: $fpm.space.space-7
+text-align: center
+align: center
+background-color: $fpm.color.main.success.border
+
+
+--- container: ftd.main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- aditi.h2: THANK YOU SOON E-CARD
+
+
+-- aditi.code: Code for  `-- CARD-5`
+lang: ftd
+
+
+\-- card-5:
+
+Thank You!
+
+Thank you for sharing my special day,
+and for help to make it so much fun!
+
+Love, Alliana
+
+
+
+
+
+--- ftd.text: Output of above:
+padding-vertical: 12
+color: $fpm.color.main.text
+role: $fpm.type.heading-small
+text-align: center
+align: left
+
+
+
+
+
+-- card-5:
+card-desc1: $w1
+card-desc2: $w2
+card-desc3: $w3
+
+
+
+
+
+-- string w1:
+
+Thank You!
+
+
+-- string w2:
+
+Thank you for sharing my special day,
+
+and for help to make it so much fun!
+
+
+-- string w3:
+
+Love, Alliana
+
+
+
+
+
+
+
+
+
+
+-- ftd.column card-5:
+optional caption title:
+optional string label:
+ftd.image-src src: $assets.files.bg5.png
+optional string card-desc1:
+optional string card-desc2:
+optional string card-desc3:
+min-width: percent 50
+margin-top: $fpm.space.space-6
+margin-bottom: $fpm.space.space-6
+background-image: $src
+background-repeat: false
+padding-vertical: $fpm.space.space-8
+padding-horizontal:  $fpm.space.space-8
+width: percent 100
+height: 560
+width if $is-mobile: fill
+align: center
+
+
+--- ftd.column:
+background-color: $trans
+align: center
+padding-vertical: $fpm.space.space-2
+padding-horizontal: $fpm.space.space-2
+max-width: 756
+align: center
+
+
+--- ftd.text:
+text: $card-desc1
+padding-top: $fpm.space.space-7
+padding-vertical: $fpm.space.space-6
+color: $fpm.color.main.cta-primary.border
+role: $fpm.type.heading-hero
+align: center
+text-align: center
+background-color: $trans
+
+
+--- ftd.text:
+text: $card-desc2
+color: $fpm.color.main.shadow
+role: $fpm.type.heading-small
+padding-top: $fpm.space.space-2
+padding-horizontal: $fpm.space.space-7
+text-align: center
+align: center
+background-color: $trans
+
+
+--- ftd.text:
+text: $card-desc3
+color: $fpm.color.main.warning.text
+role: $fpm.type.heading-large
+padding-top: $fpm.space.space-10
+padding-horizontal: $fpm.space.space-7
+text-align: center
+align: center
+background-color: $trans
+
+
+--- container: ftd.main
