@@ -4,10 +4,12 @@
 zip: github.com/aditirai290698/learning_ftd/archive/refs/heads/main.zip
 
 -- fpm.dependency: fifthtry.github.io/doc-site as aditi
+-- fpm.dependency: fifthtry.github.io/package-doc as pd
 -- fpm.dependency: fifthtry.github.io/header   
 
 -- fpm.auto-import: aditi
 -- fpm.auto-import: fpm
+-- fpm.auto-import: pd/typography as tf
 -- fpm.auto-import: aditirai290698.github.io/learning_ftd/FPM/config
 -- fpm.auto-import: aditirai290698.github.io/learning_ftd/assets
 -- fpm.auto-import: fifthtry.github.io/header/assets as hassets
@@ -30,6 +32,8 @@ zip: github.com/aditirai290698/learning_ftd/archive/refs/heads/main.zip
 - Images: /images/
 
 - Header: /header/
+
+- E-Invitations: /cards/
 
 
 ## FTD: /FTD/
