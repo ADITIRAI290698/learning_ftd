@@ -296,7 +296,6 @@ body body:
 margin-top: $fpm.space.space-6
 margin-bottom: $fpm.space.space-6
 width: auto
-width if $is-mobile: fill
 align: center
 
 --- ftd.column:
